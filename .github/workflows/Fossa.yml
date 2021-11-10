@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: "Run FOSSA Scan=>SCA"
-      uses: fossas/fossa-action@master
+      uses: fossas/fossa-action@main
       with:
           api-key: ${{secrets.fossaApiKey}}
           run-tests: true
