@@ -12,6 +12,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: mobsfscan
-      uses: MobSF/mobsfscan@main
+      uses: MobSF/mobsfscan@master
       with:
         args: '. --json'
